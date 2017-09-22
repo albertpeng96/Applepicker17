@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ApplePicker : MonoBehaviour {
+public class ApplePicker1 : MonoBehaviour {
 
 	public GameObject       basketPrefab;
 	public int              numBaskets = 3;
@@ -18,9 +18,9 @@ public class ApplePicker : MonoBehaviour {
 			tBasketGO.transform.position = pos;
 		}
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 }
